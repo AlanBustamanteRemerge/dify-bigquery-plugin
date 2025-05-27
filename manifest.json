@@ -1,7 +1,7 @@
 {
   "unique_identifier": "com.4thepoch.dify-bigquery-plugin",
   "name": "dify-bigquery-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Google BigQuery integration plugin for Dify",
   "author": "DifyBigQueryPlugin",
   "provider": "provider/bigquery.yaml",
