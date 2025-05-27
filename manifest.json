@@ -1,0 +1,16 @@
+{
+  "unique_identifier": "com.4thepoch.dify-bigquery-plugin",
+  "name": "dify-bigquery-plugin",
+  "version": "1.0.0",
+  "description": "Google BigQuery integration plugin for Dify",
+  "author": "DifyBigQueryPlugin",
+  "provider": "provider/bigquery.yaml",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlanBustamanteRemerge/bigqueryPluginDify.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "dify": ">=0.3.0"
+  }
+} 
