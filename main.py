@@ -14,7 +14,7 @@ import minimal_provider # Adjusted import path
 import minimal_tool       # Adjusted import path
 
 # from dify_plugin.runner import application # This is for newer SDK versions (like 0.3.x)
-from dify_plugin.server import app as application # Use this for SDK 0.2.x
+from dify_plugin.runner import application
 
 # Add your tool and provider to the application
 # No explicit registration needed if classes inherit from Tool/ToolProvider correctly

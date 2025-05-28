@@ -1,2 +1,2 @@
 # This plugin has no external dependencies beyond the Dify SDK.
-dify_plugin==0.2.4 
+dify_plugin==0.3.1 
