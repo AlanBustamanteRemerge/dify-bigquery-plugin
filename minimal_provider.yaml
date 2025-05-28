@@ -1,0 +1,13 @@
+identity:
+  author: testuser
+  name: testprovider
+  label:
+    en_US: Minimal Test Provider
+  description:
+    en_US: A minimal provider for testing.
+# icon: _assets/icon.svg # Recommended to be same as manifest icon
+tools:
+  - minimal_tool.yaml # Path relative to package root (now at root)
+extra:
+  python:
+    source: minimal_provider.py # Path relative to package root (now at root) 

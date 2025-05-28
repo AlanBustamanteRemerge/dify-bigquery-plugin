@@ -1,0 +1,12 @@
+identity:
+  author: testuser
+  name: minimal_tool
+  label:
+    en_US: Minimal Test Tool
+  description:
+    en_US: A minimal tool for testing.
+parameters: []
+extra:
+  python:
+    source: minimal_tool.py # Path relative to package root (now at root)
+# icon: icon.svg # Commented out 

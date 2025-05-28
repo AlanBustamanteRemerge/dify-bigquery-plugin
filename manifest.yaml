@@ -1,12 +1,16 @@
-unique_identifier: "com.4thepoch.dify-bigquery-plugin"
-name: "dify-bigquery-plugin"
-version: "1.0.1"
-description: "Google BigQuery integration plugin for Dify"
-author: "DifyBigQueryPlugin"
-provider: "provider/bigquery.yaml"
-repository:
-  type: "git"
-  url: "https://github.com/AlanBustamanteRemerge/bigqueryPluginDify.git"
-license: "MIT"
-engines:
-  dify: ">=0.3.0" 
+version: 1.0.41
+type: plugin
+author: testuser
+name: testplugin
+label:
+  en_US: BigQuery Minimal Test
+# icon: _assets/icon.svg
+provider: minimal_provider.yaml # Path relative to package root (now at root)
+meta:
+  version: 0.0.1 # This is the API version, not the plugin package version
+  runner:
+    language: python
+    version: '3.12'
+    entrypoint: main
+# created_at: # Removed
+# privacy: PRIVACY.md # Optional for local testing 
